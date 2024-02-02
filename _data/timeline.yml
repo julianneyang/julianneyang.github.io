@@ -26,34 +26,26 @@
     - tag: Non-coding RNA 
   timeline-side: right
 
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
+- title: University of California Los Angeles
+  title-url: 
+  date: Jan 2020 - Dec 2023
+  subtitle: PhD Candidate 
   tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
-  timeline-side: right
-
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
+    - tag: metagenomics
+    - tag: amplicon sequencing
+    - tag: R programming
+    - tag: git 
   timeline-side: left
 
-- title: Facebook
+- title: Genentech
   title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
-  tags:
-    - tag: React
-    - tag: Node
-    - tag: Javascript
+  date: Jun 2022 - Sep 2022
+  subtitle: Bioinformatics Intern
   timeline-side: right
 
-- title: Super University
+
+- title: University of Illinois at Urbana-Champaign
   title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
+  date: Aug 2016 - May 2019
+  subtitle: B.S. Biochemistry
   timeline-side: left
