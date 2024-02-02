@@ -1,79 +1,210 @@
-Dr. Jekyll: A scholarly website template.
-===================
+# Neumorphism <!-- omit in toc -->
 
-This Jekyll template is meant for young (or established) scholars who would like to set up a website quickly and have it remain stable in the future.
+> Neumorphism designed Jekyll theme for personal websites, portfolios and resumes.
 
-The template includes a built in bibliography using bibtex format that you can use to update your incredibly long publication list (knock on wood).
+* Featured on [JAMstack Themes](https://jamstackthemes.dev/theme/jekyll-neumorphism/)
+* Featured on [Jekyll Themes](https://jekyll-themes.com/neumorphism/)
+* Featured on [jekyllthemes](http://jekyllthemes.org/themes/neumorphism/)
 
-___
+[![Open Issues](https://badgen.net/github/open-issues/longpdo/neumorphism)](https://github.com/longpdo/neumorphism/issues)
+[![License](https://badgen.net/github/license/longpdo/neumorphism)](LICENSE)
+<a href="https://jekyll-themes.com">
+    <img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
+</a>
 
-## Key Elements
-The template comes with the following features:
+[View Demo](https://longpdo.github.io/neumorphism/) · [Report Bug](https://github.com/longpdo/neumorphism/issues) · [Request Feature](https://github.com/longpdo/neumorphism/issues)
 
-1. Easily adjust the title, url, and favicon in the `config.yml` file.
-2. Change the "About Me" section, the "Courses" list, and "Contact Me" info in the `_data/settings.yml` file.
-3. A bibliography can be built easily using a `.bib` file and `bibtex`.
-4. Easily create course pages and host files for your classes.
+<!-- TABLE OF CONTENTS -->
+## Table of Contents <!-- omit in toc -->
 
----
-## Use
-To use this template, you need to build the site locally. The [Jekyll-Scholar](https://github.com/inukshuk/jekyll-scholar) plugin is not supported by Github.
+* [About The Project](#about-the-project)
+  * [Built With](#built-with)
+  * [Features](#features)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Usage](#usage)
+  * [Personalize and Customize](#personalize-and-customize)
+    * [_config.yml](#_configyml)
+    * [Github Metadata Plugin](#github-metadata-plugin)
+    * [_data/*.yml](#_datayml)
+    * [Particles.js](#particlesjs)
+* [Contributing](#contributing)
+* [License](#license)
+* [Acknowledgements](#acknowledgements)
 
-Here is a brief description of the necessary steps to customize your site:
+<!-- ABOUT THE PROJECT -->
 
-1. Download the repository.
-2. Update the `config.yml` file with your preferred settings for title, url, etc.
-3. Update the `_data/settings.yml` file with your "About Me" blurb, your course list, and your contact information.
-4. For each course, you can either link to an external site or create a new page. To create a new course page, copy the `temp_course` folder and update the necessary information (add lecture slides, change the front matter in the `index.html` file, change folder names, etc.).
-5. Put any files (e.g. CV, pdf's of articles, etc.) in the `assets/files` folder.
-6. If you would like to change the bibliography style, add your custom `.csl` file to the `assets\bib` folder.
-7. Update the `_mybib.bib` file to include all of your amazing articles.
-8. Change the bio-photo (200 x 220) and the background image (2634 x 1756 ... although you don't necessarily need such a high resolution image).
-9. Update the colors in `assets/css/2-base/_vars.sass`. In particular, `accent-color` is the most used (if not the only...).
+## About The Project
 
-Once the site looks the way you want it, you need to push it to Github. To build the site locally and push the necessary files, do the following (note: this assumes you already have a Github pages site and associated local repository. If not, check out [this page for directions](https://pages.github.com/).):
+[![Project Screenshot][product-screenshot]](https://longpdo.github.io/neumorphism/)
 
-0. Ensure that your customized DrJekyll folder is ***outside*** of the Github pages repository.
-1. Copy your local github repository to a safe place (because we are going to delete it).
-2. `cd` into your local repository and delete the files:
+This is a personal website built with `Jekyll` and hosted on `Github Pages`, which is based on the new `Neumorphism` design trend and was developed with a mobile-first approach. This can be used by developers, who want to showcase their resume and portfolio. If you want to use this for your own website, fork this repository and then refer to [personalize and customize](#personalize-and-customize).
 
-  ```
-  git rm -rf .
-  ```
-3. `cd` into your DrJekyll folder and build it using Jekyll:
+### Built With
 
-  ```
-  jekyll build
-  ```
-4. Using either your GUI or the command line, copy the contents of the `DrJekyll/_site` folder into your local Github Pages repository.
-5. Create an empty file in your local Github Pages repository titled `.nojekyll`.
-6. Follow your usual Github push steps. For me I run the following:
+* [Jekyll](https://jekyllrb.com/)
 
-  ```
-  git status
-  git add --all
-  git commit -m "Publishing my sweet website."
-  git push origin master
-  ```
+### Features
 
-Now, enjoy your handiwork!
+* Mobile-First Responsive Design
+* Animated preloader animation
+* Landing Page with animated background with [particles.js](https://vincentgarreau.com/particles.js/), a Typing Carousel and animated social icons
+* Dark Neumorphism Design on main content
+* [Animations On Scroll](https://michalsnik.github.io/aos/)
+* Filterable *Skills* word cloud
+* [Github's API](https://developer.github.com/v3/) automatically populating the *Open Source Projects* section
+* Gulp dev workflow with [BrowserSync](https://browsersync.io/), [Autoprefixer](https://autoprefixer.github.io/) and `JS` & `SCSS` minifying.
+* [Google Analytics](https://analytics.google.com/)
 
----
+<!-- GETTING STARTED -->
 
-## A Note On The bibliography
-The included sample `.bib` file includes the following bibliography entry:
+## Getting Started
 
+To get a local copy up and running follow these simple steps.
+
+`The commands and instructions I provide are for MacOS - please look up the specific commands for your OS on your own.`
+
+### Prerequisites
+
+* [NodeJS](https://nodejs.org/en/)
+
+```sh
+brew install node
 ```
-@article{jekyll1885schizo,
-  title={Home Remedies for Multiple Personality Disorders},
-  author={Jekyll, Henry},
-  year={1885},
-  URL={https://alongsite.com/HOO.pdfLINK:arXiv;https://alongsite.com/BOO.pdfLINK:NBER;/assets/files/paper.pdfLINK:PDF}
-}
+
+If you need to switch between Node versions regurlarly, I would recommend to install Node via [Node Version Manager](https://github.com/nvm-sh/nvm/blob/master/README.md#manual-install).
+
+* [Jekyll](https://jekyllrb.com/)
+
+```sh
+gem install bundler jekyll
 ```
-This looks like a typical entry, ***except the URL***. If your paper is hosted in several locations, you can link to all of those places using this line.
 
-The format is `urlLINK:linktext;urlLINK:linktext`, where you need to replace the link `url` and the `linktext` with whatever you would like. Each url needs to be seperated by a semicolon, `;`.
+For more information, refer to [this](https://jekyllrb.com/docs/installation/).
 
-## Tracking
-If you are a self obsessed sociopath or insecure graduate student, like myself, you can easily add analytics by creating a Google Tag Manager account and pasting the container code onto any of the `index.html` pages. Another nifty idea would to be to create an include for analytics, but since the site is quite simple, I'll leave this to you.
+* [Yarn](https://yarnpkg.com/)
+
+```sh
+npm install -g yarn
+```
+
+### Installation
+
+> Recommended way: If you want to contribute to this theme or open issues due to problems implementing this on your own, I would recommend forking the repository directly. This makes it easier for me to solve open issues and questions or check pull requests.
+
+1.1: Fork the repository (using the `Fork` button at the top) and then clone the repository
+
+```sh
+# Replace {YOUR_USERNAME} with your actual username
+git clone https://github.com/{YOUR_USERNAME}/neumorphism.git
+```
+
+or
+
+1.2: Create your own repository (using the green `Use this template` button at the top) and then clone the repository
+
+```sh
+# Replace {YOUR_USERNAME}, {YOUR_REPOSITORY} with the actual values
+git clone https://github.com/{YOUR_USERNAME}/{YOUR_REPOSITORY}.git
+```
+
+2: Change directory into neumorphism
+
+```sh
+cd neumorphism
+```
+
+3: Install dependencies
+
+```sh
+yarn
+bundle install
+```
+
+<!-- USAGE EXAMPLES -->
+
+## Usage
+
+* Run and develop locally with live server at `http://localhost:4000`, this will also build production-ready `JS` and `SCSS` assets with every change
+
+```sh
+gulp
+```
+
+* After committing and pushing, see the `Settings` page of your repository to see where your site is published at via `Github Pages`.
+
+### Personalize and Customize
+
+#### _config.yml
+
+Edit `_config.yml` to personalize your site. For documentation, refer to [docs/config.md](https://github.com/longpdo/neumorphism/blob/master/docs/config.md).
+
+#### Github Metadata Plugin
+
+If you want to automatically have your Github repositories pulled for the *Open Source Projects* section, then you also need to authenticate yourself for the Github Metadata plugin to work.
+
+You need to generate a new personal access token on GitHub:
+
+* Go to the [Github Token site](https://github.com/settings/tokens/new)
+* Select the scope `public_repository`, and add a description.
+* Confirm and save the settings. Copy the token you see on the page.
+* Create a `.env` file inside your repository and add your generated `JEKYLL_GITHUB_TOKEN`:
+
+```text
+JEKYLL_GITHUB_TOKEN=0YOUR0GENERATED0TOKEN0
+```
+
+To complete the configuration for the Github Metadata plugin, you also need to change the value of `repository` inside `_config.yml`. After this, you should the Github Metadata plugin should work properly.
+
+For optimal results, you should make sure, that every Github project, you want included on this portfolio, has added following informations on Github:
+
+* Description
+* Homepage link, if there is a live version of it
+* Topics
+
+Example:
+![Github Repository Information Example][github-repo-info]
+
+#### _data/*.yml
+
+Edit files inside `_data` to add information to the portfolio. For documentation, refer to [docs/data.md](https://github.com/longpdo/neumorphism/blob/master/docs/data.md).
+
+#### Particles.js
+
+Edit `assets/particles.json` to customize the landing page backgorund animation. For more information, refer to [this](https://github.com/VincentGarreau/particles.js/#options).
+
+<!-- CONTRIBUTING -->
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## Acknowledgements
+
+* [Font Awesome](https://fontawesome.com/)
+* [Normalize.css](https://necolas.github.io/normalize.css/)
+* Based Preloader on [Codrin Pavel's](https://codepen.io/zerospree/pen/aCjAz) version
+* Typing Carousel by [Gregory Schier](https://codepen.io/gschier/pen/jkivt)
+* Social Button Animation by [Stéphane Lyver](https://codepen.io/wouwi/pen/Lwrmi)
+* Adapted [Damian Jankowski's](https://codepen.io/dolaron/pen/rNadmOE) color palette for the neumorphism design
+* Based Timeline on [Krishna Babu's](https://codepen.io/krishnab/pen/OPwqbW) version
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[product-screenshot]: https://raw.githubusercontent.com/longpdo/neumorphism/master/docs/screenshot.gif
+[github-repo-info]: https://raw.githubusercontent.com/longpdo/neumorphism/master/docs/github-repo-info.png
