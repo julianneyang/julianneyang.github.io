@@ -31,7 +31,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: A cool scientist who occasionally dabbles in making bad websites and low quality Youtube cat videos. 
+about_me_description: I'm a scientist with extensive experience in sequencing library preparation and analysis. My areas of research interests include leveraging bioinformatics and data science to understand physiological processes driving disease. Outside of the lab, I spend my time serving two feline overlords.  
 # SKILLS SECTION
 # show_skills_card:
 # > setting this to true, will display the Skills section
@@ -49,8 +49,7 @@ show_timeline_card: true
 timeline_title: Education & Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link: https://docs.google.com/document/d/1oO6EsYxf5SAstZISjZfz2LR_HdtZfeHlNMvjK_bLJ5I/edit?usp=sharing
-
+cv_download_link: file:///home/julianne/Documents/personal_website/julianneyang.github.io/docs/Resume%20Julianne%20Yang%2011.5.2023%20.pdf
 
 # PROJECTS SECTION
 # show_projects_card:
