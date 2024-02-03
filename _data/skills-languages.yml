@@ -5,10 +5,10 @@
 # - name: Language
 #   weight: 5
 
-- name: TypeScript
+- name: R programming
   weight: 5
 
-- name: JavaScript
+- name: bash
   weight: 4
 
 - name: Python
@@ -32,11 +32,4 @@
 - name: Swift
   weight: 1
 
-- name: Kotlin
-  weight: 1
 
-- name: C++
-  weight: 2
-
-- name: Ruby
-  weight: 2

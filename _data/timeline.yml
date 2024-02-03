@@ -24,6 +24,7 @@
   tags:
     - tag: RNA sequencing
     - tag: Non-coding RNA 
+    - tag: transcriptomics
   timeline-side: right
 
 - title: University of California Los Angeles
@@ -45,9 +46,8 @@
   subtitle: Bioinformatics Intern
   timeline-side: right
 
-
 - title: University of Illinois at Urbana-Champaign
   title-url: https://example.com/
   date: Aug 2016 - May 2019
-  subtitle: B.S. Biochemistry
+  subtitle: B.S. Biochemistry, Highest Distinction
   timeline-side: left
