@@ -28,13 +28,15 @@
 
 - title: University of California Los Angeles
   title-url: 
-  date: Jan 2020 - Dec 2023
-  subtitle: PhD Candidate 
+  date: Sep 2019 - Dec 2023
+  subtitle: PhD in Molecular, Cellular, and Integrative Physiology
   tags:
     - tag: metagenomics
     - tag: amplicon sequencing
     - tag: R programming
     - tag: git 
+    - tag: Snakemake
+    - tag: Grid Engine
   timeline-side: left
 
 - title: Genentech

@@ -50,6 +50,8 @@ timeline_title: Education & Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
 cv_download_link: https://docs.google.com/document/d/1oO6EsYxf5SAstZISjZfz2LR_HdtZfeHlNMvjK_bLJ5I/edit?usp=sharing
+
+
 # PROJECTS SECTION
 # show_projects_card:
 # > setting this to true, will display the Projects section
