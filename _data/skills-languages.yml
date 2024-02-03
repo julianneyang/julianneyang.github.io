@@ -5,20 +5,35 @@
 # - name: Language
 #   weight: 5
 
-- name: R programming
-  weight: 5
-
-- name: bash
-  weight: 4
-
-- name: Python
+- name: Bowtie2
   weight: 2
 
-- name: HTML5
+- name: SAMtools
+  weight: 2
+
+- name: MEGAHIT
+  weight: 2
+
+- name: Kraken/Braken
+  weight: 3
+
+- name: BioBakery
   weight: 4
 
-- name: CSS3
-  weight: 3
+- name: scikit-learn
+  weight: 3 
+
+- name: QIIME 
+  weight: 5 
+
+- name: metagenomics 
+  weight: 5 
+
+- name: amplicon sequencing 
+  weight: 5 
+
+- name: transcriptomics 
+  weight: 3 
 
 - name: SASS
   weight: 3
