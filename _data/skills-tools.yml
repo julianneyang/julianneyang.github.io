@@ -35,8 +35,8 @@
 - name: NCBI 
   weight: 5 
 
-- name: SRA Toolkit 
-  weight: 5 
-
-- name: AWK 
+- name: AWK
   weight: 1 
+
+- name: R devtools 
+  weight: 5

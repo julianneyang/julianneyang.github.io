@@ -18,7 +18,7 @@
 #   timeline-side: right
 
 - title: Merck
-  title-url: https://example.com/
+  title-url: https://www.merck.com/research/
   date: Feb 2024 - Present
   subtitle: Postdoctoral Scientist, Quantitative Biosciences 
   tags:
@@ -28,7 +28,7 @@
   timeline-side: right
 
 - title: University of California Los Angeles
-  title-url: 
+  title-url: https://www.uclahealth.org/departments/medicine/gastro/jacobs-lab
   date: Sep 2019 - Dec 2023
   subtitle: PhD in Molecular, Cellular, and Integrative Physiology
   tags:
@@ -41,15 +41,21 @@
   timeline-side: left
 
 - title: Genentech
-  title-url: https://example.com/
+  title-url: https://www.gene.com/
   date: Jun 2022 - Sep 2022
   subtitle: Bioinformatics Intern
   timeline-side: right
 
+- title: Summer Science Program 
+  title-url: https://summerscience.org/
+  date: Jun 2019 - Sep 2019 
+  subtitle: Biochemistry Teaching Assistant
+  timeline-side: left 
+
 - title: University of Illinois at Urbana-Champaign
-  title-url: https://example.com/
+  title-url: https://app.mcb.illinois.edu/chunghj/
   date: Aug 2016 - May 2019
   subtitle: B.S. Biochemistry, Highest Distinction
-  timeline-side: left
+  timeline-side: right
 
  

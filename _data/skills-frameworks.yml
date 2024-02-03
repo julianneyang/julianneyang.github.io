@@ -5,29 +5,29 @@
 # - name: Framework
 #   weight: 5
 
-- name: Angular
+- name: Immunohistochemistry
   weight: 5
 
-- name: AngularJS
+- name: cDNA library preparation
   weight: 3
 
-- name: React
-  weight: 4
+- name: Mammalian cell culture 
+  weight: 5
 
-- name: Node
-  weight: 1
-
-- name: Flutter
-  weight: 2
-
-- name: Express
+- name: Confocal microscopy
   weight: 3
 
-- name: Django
-  weight: 1
-
-- name: Spring
+- name: Anaerobic chamber
   weight: 2
 
-- name: Rails
+- name: Mouse models
+  weight: 5
+
+- name: gRNA/ssODN design 
+  weight: 2
+
+- name: amplicon library preparation
   weight: 4
+
+- name: IACUC protocol
+  weight: 5 
