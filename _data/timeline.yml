@@ -45,6 +45,13 @@
   date: Jun 2022 - Sep 2022
   subtitle: Bioinformatics Intern
   timeline-side: right
+  tags:
+    - tag: Slurm
+    - tag: Kraken/Braken
+    - tag: Humann 
+    - tag: unsupervised clustering
+    - tag: bash scripting 
+    - tag: AWK scripting
 
 - title: Summer Science Program 
   title-url: https://summerscience.org/

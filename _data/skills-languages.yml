@@ -35,16 +35,4 @@
 - name: transcriptomics 
   weight: 3 
 
-- name: SASS
-  weight: 3
-
-- name: Java
-  weight: 1
-
-- name: Dart
-  weight: 1
-
-- name: Swift
-  weight: 1
-
 

@@ -5,29 +5,29 @@
 # - name: Framework
 #   weight: 5
 
-- name: Immunohistochemistry
+- name: R
   weight: 5
 
-- name: cDNA library preparation
+- name: Python
   weight: 3
 
-- name: Mammalian cell culture 
-  weight: 5
+- name:  
+  weight: 
 
-- name: Confocal microscopy
-  weight: 3
+- name: 
+  weight: 
 
-- name: Anaerobic chamber
-  weight: 2
+- name: 
+  weight: 
 
-- name: Mouse models
-  weight: 5
+- name: 
+  weight: 
 
-- name: gRNA/ssODN design 
-  weight: 2
+- name:  
+  weight: 
 
-- name: amplicon library preparation
-  weight: 4
+- name: 
+  weight: 
 
-- name: IACUC protocol
-  weight: 5 
+- name: 
+  weight:  

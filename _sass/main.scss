@@ -61,7 +61,7 @@ a {
 
 .highlight-title {
   color: $primary-color;
-  text-shadow: 0.25rem 0.25rem 0.25rem $primary-color;
+  #text-shadow: 0.25rem 0.25rem 0.25rem $primary-color;
 }
 
 .highlight-link {
@@ -112,8 +112,8 @@ a {
     rgba(100, 100, 105, 0.15) 15%,
     rgba(33, 33, 33, 0.4) 80%
   );
- # box-shadow: -4px -3px 2px 0 rgba(250, 250, 250, 0.13),
-    #4px 4px 2px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: -4px -3px 2px 0 rgba(250, 250, 250, 0.13),
+    4px 4px 2px 0 rgba(0, 0, 0, 0.4);
 }
 
 @mixin neumorphism-button-pressed {
