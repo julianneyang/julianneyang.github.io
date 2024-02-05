@@ -13,21 +13,22 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: project X
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: Vitamin deficiency, gut dysbiosis, and IBD 
+  descr: "Through microbiomic and predictive metagenomic analysis of samples collected from mouse models, we found that biotin deficiency, whether mediated through diet or inhibited host absorption, leads to growth of opportunistic microbes which are capable of biotin synthesis / uptake. This dysbiosis precedes the onset of intestinal inflammation."
+  demo: https://www.mdpi.com/2072-6643/15/2/264
   tags:
-    - tag: MongoDB
-    - tag: Express
-    - tag: AngularJS
-    - tag: Node
+    - tag: amplicon sequencing
+    - tag: QIIME 
+    - tag: R
+    - tag: mixed-effects models
+    - tag: pathway analysis 
 
-- name: project Y
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: Gut biogeography of specific pathogen free and colonized germ-free mice 
+  descr: "Fecal microbiota transplantation has been the standard in the field for establishing whether host phenotypes can be conferred through the microbiome. However, whether the existing distribution of the microbiota and its functions along the regions of the mouse gastrointestinal tract can be recapitulated in germ-free mice colonized with mice or human stool remains unknown. We first identified region-specific microbes and their predicted functions in three cohorts of specific pathogen-free mice spanning two facilities. Of these region-specific microbes, the health-linked genus Akkermansia was consistently enriched in the lumen of the SI compared to the colon. Predictive gut-metabolic modeling revealed increased microbial metabolism in the SI, including carbohydrate degradation, lipolytic fermentation, and cross-feeding, while butyrate synthesis was colon-enriched. We also found evidence of biogeographical distribution of gut-brain modules, with increased degradation of the neurotransmitters nitric oxide and gamma-aminobutyric acid in the SI compared to the colon. Specifically, the jejunum and ileum stood out as sites with high predicted metabolic and gut-brain activity. Differences between luminal and mucosal microbiomes within each site of the GI tract were largely facility-specific, though within the colon, butyrate synthesis and polysaccharide degradation were mucosa-enriched. Importantly, in germ-free mice colonized with mice or human stool, region specificity of genera, in addition to predicted gut-metabolic and gut-brain pathways, was lost or perturbed. These results underscore the importance of investigating the spatial variation of the gut microbiome to better understand its impact on host health and disease, especially as the field continues to investigate candidate microbes involved in disease pathophysiology.
+"
+  demo: https://linkinghub.elsevier.com/retrieve/pii/S0016508523028123
   tags:
-    - tag: Python
-    - tag: Django
-
-- name: project Z
-  descr: "You can also set a project without demo link and no tags"
+    - tag: amplicon sequencing
+    - tag: shotgun metagenomics
+    - tag: unsupervised clustering 
+    - tag: R devtools 
