@@ -31,7 +31,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: I'm a scientist with extensive experience in sequencing library preparation and analysis. My areas of research interests include leveraging bioinformatics and data science to understand physiological processes driving disease. Outside of the lab, I spend my time serving two feline overlords.  
+about_me_description: I'm a scientist with extensive experience in the analysis of large-scale sequencing data. I'm interested in leveraging bioinformatics and data science to understand physiological processes driving disease. I previously worked in Dr. Jonathan Jacobs's lab at UCLA, where I investigated whether genetic variants alter the microbiome and influence disease susceptibility. While in Dr. Jacobs's lab trying to figure out how to design my experiments, I also did a meta-analysis of gut biogeographic patterns in both specific-pathogen free mice and germ-free mice colonized with mouse or human feces. Outside of the lab, I spend my time serving two feline overlords (who have a Youtube channel @twofurryspirits), pretending to be a good cook, watching comedy (Silicon Valley is a personal favorite), and learning how to do new things like make this website, even if I did cheat by downloading a template.   
 # SKILLS SECTION
 # show_skills_card:
 # > setting this to true, will display the Skills section
