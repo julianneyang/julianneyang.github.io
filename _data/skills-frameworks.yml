@@ -5,29 +5,29 @@
 # - name: Framework
 #   weight: 5
 
-- name: R
-  weight: 5
+- name: Biobakery
+  weight: 4
 
-- name: Python
+- name: Kraken/Braken
   weight: 3
 
-- name:  
-  weight: 
+- name: QIIME  
+  weight: 5
 
-- name: 
-  weight: 
+- name: Bowtie2 
+  weight: 2
 
-- name: 
-  weight: 
+- name: Shotgun data
+  weight: 4
 
-- name: 
-  weight: 
+- name: ITS/16S 
+  weight: 5
 
-- name:  
-  weight: 
+- name:  VFDB
+  weight: 2
 
-- name: 
-  weight: 
+- name: Silva/GTDB
+  weight: 3
 
 - name: 
   weight:  

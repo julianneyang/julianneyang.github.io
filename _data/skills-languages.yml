@@ -5,34 +5,34 @@
 # - name: Language
 #   weight: 5
 
-- name: Bowtie2
-  weight: 2
+- name: Salmon
+  weight: 3
 
 - name: SAMtools
   weight: 2
 
-- name: MEGAHIT
+- name: FASTQC	
+  weight: 5
+
+- name: Trimmomatic
   weight: 2
 
-- name: Kraken/Braken
+- name: MULTIQC
+  weight: 5
+
+- name: transcriptomics
+  weight:  3
+
+- name: Gencode 
+  weight: 2
+
+- name: Ensembl 
   weight: 3
 
-- name: BioBakery
-  weight: 4
+- name:  
+  weight:  
 
-- name: scikit-learn
-  weight: 3 
-
-- name: QIIME 
-  weight: 5 
-
-- name: metagenomics 
-  weight: 5 
-
-- name: amplicon sequencing 
-  weight: 5 
-
-- name: transcriptomics 
-  weight: 3 
+- name:  
+  weight: 
 
 

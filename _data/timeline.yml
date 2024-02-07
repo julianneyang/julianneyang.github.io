@@ -24,7 +24,6 @@
   tags:
     - tag: RNA sequencing
     - tag: Non-coding RNA 
-    - tag: transcriptomics
   timeline-side: right
 
 - title: University of California Los Angeles
@@ -62,7 +61,11 @@
 - title: University of Illinois at Urbana-Champaign
   title-url: https://app.mcb.illinois.edu/chunghj/
   date: Aug 2016 - May 2019
-  subtitle: B.S. Biochemistry, Highest Distinction
+  subtitle: B.S. Biochemistry
   timeline-side: right
 
+- title: University of Illinois at Urbana Champaign 
+  date: Oct 2018 - Dec 2018 
+  subtitle: Chemistry Teaching Assistant 
+  timeline-side: left 
  
