@@ -24,6 +24,8 @@
   tags:
     - tag: RNA sequencing
     - tag: transcriptomics 
+    - tag: Nextflow
+    - tag: RShiny
   timeline-side: right
 
 - title: University of California Los Angeles

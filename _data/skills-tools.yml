@@ -17,7 +17,7 @@
 - name: UGE/OGE
   weight: 3
 
-- name: Snakemake
+- name: Nextflow
   weight: 2
 
 - name: NCBI 
@@ -31,3 +31,6 @@
 
 - name: SRA Toolkit
   weight: 5
+
+- name: RShiny
+  weight: 2
